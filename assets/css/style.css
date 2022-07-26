@@ -1,0 +1,219 @@
+/*font-family: "Cabin", sans-serif;
+font-family: "Lobster", cursive;*/
+
+html {
+  font-size: 16px;
+}
+.navbar {
+  height: 3.75em;
+  width: 100%;
+}
+.navbar-brand {
+  width: 6em;
+  height: auto;
+  font-family: "Lobster", sans-serif;
+  font-size: 2em;
+}
+
+hr {
+  width: 16em;
+  border: solid 0.031em;
+}
+.card {
+  width: 96%;
+  height: 90%;
+}
+
+.fs-6 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1em;
+}
+.fs-7 {
+  font-family: "Lobster", sans-serif;
+  font-size: 1.25em;
+}
+.fs-8 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.563em;
+}
+.fs-9 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.125em;
+}
+.fs-9 {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+}
+.ps-11 {
+  padding-left: 1.2em;
+}
+
+.navbar-toggler {
+  margin-top: -3.75em;
+  margin-right: 2.375em;
+}
+.ms-7 {
+  margin-top: -60px;
+}
+
+.btn-outline-secondary {
+  width: 10em;
+  height: 3.188em;
+  font-size: 0.688em;
+  font-family: "Cabin", sans-serif;
+  color: #373a3c;
+}
+article {
+  height: 28em;
+  width: 102%;
+}
+footer {
+  height: 7.938em;
+  width: 102%;
+  
+}
+.carousel-item {
+  width: 80%;
+  height: 12.5em;
+}
+@media (min-width: 575px) {
+  .navbar-brand {
+    width: 7.375em;
+  }
+  .navbar-toggler {
+    margin-right: 2.375em !important;
+  }
+  hr {
+    width: 29.375em;
+  }
+  .card {
+    max-width: 90%;
+  }
+
+  .fs-8 {
+    font-family: "Cabin", sans-serif;
+    font-size: 2.75em;
+  }
+  .btn-outline-secondary {
+    width: 15em;
+    height: 3.188em;
+    font-size: 1em;
+  }
+  .ps-10 {
+    padding-left: 1.2em;
+  }
+  .ps-11 {
+    padding-left: 1.7em;
+  }
+}
+
+@media (min-width: 767px) {
+  hr {
+    width: 19.75em;
+  }
+  .card {
+    width: 100%;
+  }
+  .ms-10 {
+    margin-left: 4.375em;
+  }
+  .ps-11 {
+    padding-left: 1.9em;
+  }
+  .ps-10 {
+    padding-left: 3.2em;
+  }
+  .fs-8 {
+    font-size: 1.4em;
+  }
+
+  .btn-outline-secondary {
+    width: 9em;
+    height: auto;
+  }
+  .carousel-item {
+    width: 96%;
+    height: auto;
+  }
+  .hr1 {
+    width: 41em;
+  }
+  .hr2 {
+    width: 66em;
+  }
+  .fs-10 {
+    font-size: 2.5em;
+    font-family: "Cabin", sans-serif;
+    color: #373a3c;
+  }
+}
+
+@media (min-width: 991px) {
+  .mt-13 {
+    margin-top: 2em;
+  }
+  .ms-10 {
+    margin-left: 10.188em;
+  }
+  .ps-10 {
+    padding-left: 8.2em;
+  }
+  .ms-7 {
+    margin-left: 22.9em;
+    margin-top: 0em;
+  }
+
+  .btn-outline-secondary {
+    margin-left: -6em;
+  }
+  hr {
+    width: 25.75em;
+  }
+  .hr1 {
+    width: 55em;
+  }
+  .hr2 {
+    width: 56em;
+  }
+}
+@media (min-width: 1199px) {
+  .ms-10 {
+    margin-left: 9.375em;
+  }
+
+  .ps-10 {
+    padding-left: 7.2em;
+  }
+  .ms-7 {
+    margin-left: 34.9em;
+  }
+  hr {
+    width: 31.75em;
+  }
+  .hr1 {
+    width: 66em;
+  }
+  .hr2 {
+    width: 56em;
+  }
+  .me-md-5 {
+    margin-right: 9rem !important;
+  }
+}
+@media (min-width: 1399px) {
+  .ms-10 {
+    margin-left: 13.75em;
+  }
+  .ps-10 {
+    padding-left: 11.2em;
+  }
+  .ms-7 {
+    margin-left: 47.9em;
+  }
+  .hr1 {
+    width: 79.5em;
+  }
+  .hr2 {
+    width: 69em;
+  }
+}
